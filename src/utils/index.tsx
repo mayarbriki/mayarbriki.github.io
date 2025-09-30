@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import { hotjar } from 'react-hotjar';
 import { LOCAL_STORAGE_KEY_NAME } from '../constants';
 
