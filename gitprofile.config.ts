@@ -37,7 +37,7 @@ const CONFIG = {
   description:
     'A comprehensive insurance application that simplifies policy management and claims processing.',
   imageUrl: '/1099.jpg',
-  link: 'https://mayarbriki.github.io/projects/',
+  link: 'https://mayarbriki.github.io/Insurance-Application/',
 },
         {
           title: 'Project Name',
@@ -129,15 +129,7 @@ const CONFIG = {
       to: '2014',
     },
   ],
-  // Display articles from your medium or dev account. (Optional)
-  blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many articles to display. Max is 10.
-  },
-  googleAnalytics: {
-    id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
-  },
+ 
   // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: { id: '', snippetVersion: 6 },
   themeConfig: {
