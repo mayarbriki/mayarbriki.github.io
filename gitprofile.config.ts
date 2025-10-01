@@ -186,8 +186,7 @@ const CONFIG = {
       'procyon',
     ],
   },
-
- 
+  googleAnalytics: { id: '' },
 
   enablePWA: true,
 };
