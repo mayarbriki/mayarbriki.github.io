@@ -97,12 +97,13 @@ const ExternalProjectCard = ({
                   <h2 className="font-medium text-center opacity-60 mb-2">
                     {item.title}
                   </h2>
-          {item.imageUrl && (
+                {item.imageUrl && (
   <div className="avatar opacity-90">
-    <div className="w-16 h-16 mask mask-squircle"> {/* Reduced size */}
+    <div className="w-16 h-16 mask mask-squircle"> {/* Adjusted size */}
       <LazyImage
         src={item.imageUrl}
         alt={'thumbnail'}
+        className="object-cover w-full h-full" // Ensures the image fits properly
         placeholder={skeleton({
           widthCls: 'w-full',
           heightCls: 'h-full',
