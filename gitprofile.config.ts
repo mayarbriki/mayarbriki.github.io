@@ -36,8 +36,7 @@ const CONFIG = {
   title: 'Insurance Application',
   description:
     'A comprehensive insurance application that simplifies policy management and claims processing.',
-  imageUrl:
-    'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+  imageUrl: '/1099.jpg',
   link: 'https://mayarbriki.github.io/projects/',
 },
         {
