@@ -97,21 +97,21 @@ const ExternalProjectCard = ({
                   <h2 className="font-medium text-center opacity-60 mb-2">
                     {item.title}
                   </h2>
-                  {item.imageUrl && (
-                    <div className="avatar opacity-90">
-                      <div className="w-24 h-24 mask mask-squircle">
-                        <LazyImage
-                          src={item.imageUrl}
-                          alt={'thumbnail'}
-                          placeholder={skeleton({
-                            widthCls: 'w-full',
-                            heightCls: 'h-full',
-                            shape: '',
-                          })}
-                        />
-                      </div>
-                    </div>
-                  )}
+          {item.imageUrl && (
+  <div className="avatar opacity-90">
+    <div className="w-16 h-16 mask mask-squircle"> {/* Reduced size */}
+      <LazyImage
+        src={item.imageUrl}
+        alt={'thumbnail'}
+        placeholder={skeleton({
+          widthCls: 'w-full',
+          heightCls: 'h-full',
+          shape: '',
+        })}
+      />
+    </div>
+  </div>
+)}
                   <p className="mt-2 text-base-content text-sm text-justify">
                     {item.description}
                   </p>
