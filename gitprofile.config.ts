@@ -47,6 +47,13 @@ const CONFIG = {
             'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80',
           link: 'https://mayarbriki.github.io/banking_demo/',
         },
+          {
+  title: 'project budget estimation Application',
+  description:
+    'A user-friendly budgeting application to help manage personal finances and track expenses effectively.',
+  imageUrl: '/1099.jpg',
+  link: 'https://mayarbriki.github.io/Insurance-Application/',
+},
       ],
     },
   },
@@ -73,7 +80,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      '/dist/assets/cv.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Spring',
