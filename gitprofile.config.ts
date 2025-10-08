@@ -117,16 +117,10 @@ const CONFIG = {
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: "ESPRIT – École d'ingénieurs en Tunisie",
+      degree: 'Software architectural engineering',
+      from: '2021',
+      to: '2025',
     },
   ],
  
