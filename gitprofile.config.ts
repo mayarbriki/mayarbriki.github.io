@@ -89,19 +89,25 @@ const CONFIG = {
     'CSS'
   ],
   experiences: [
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      {
+      company: 'Tunisie Telecom',
+      position: 'Software Engineer Intern',
+      from: 'July 2022',
+      to: 'August 2022',
+      companyLink: 'https://www.amenbank.com.tn/',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Amen Bank',
+      position: 'Software Engineer Intern',
+      from: 'July 2024',
+      to: 'https://www.amenbank.com.tn/',
+    },
+    {
+      company: 'Eco-Pilot',
+      position: 'Software Engineer Intern',
+      from: 'July 2025',
+      to: 'september 2025',
+      companyLink: 'https://www.eco-pilot.com/',
     },
   ],
  
