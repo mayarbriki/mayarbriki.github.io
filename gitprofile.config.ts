@@ -40,11 +40,11 @@ const CONFIG = {
   link: 'https://mayarbriki.github.io/Insurance-Application/',
 },
         {
-          title: 'Project Name',
+          title: 'Banking Application',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'A modern banking application featuring secure transactions, account management, and intuitive user experience.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+            'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80',
           link: 'https://mayarbriki.github.io/banking_demo/',
         },
       ],
