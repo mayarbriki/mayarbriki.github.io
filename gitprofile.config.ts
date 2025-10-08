@@ -78,10 +78,10 @@ const CONFIG = {
     phone: '',
     email: 'mayar.briki@esprit.tn',
   },
-  resume: {
-    fileUrl:
-      '/dist/assets/cv.pdf', // Empty fileUrl will hide the `Download Resume` button.
-  },
+resume: {
+  fileUrl: '/cv.pdf'
+},
+
   skills: [
     'Spring',
     'Angular',
